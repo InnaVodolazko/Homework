@@ -1,0 +1,124 @@
+/* Container */
+.container{
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+/* Intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 100%;
+height: 100vh;
+background-image: url("..images/Foret.jpg");
+background-repeat: no-repeat;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.intro_title{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Magra', sans-serif;
+}
+.textstyle{
+    color: gray;
+    font-style: italic;
+    font-family: 'Rambla', sans-serif;
+    opacity: 80%;
+}
+
+.intro_inner{
+
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+    padding-top: 20px;
+    width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+}
+
+/* Nav */
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav_link{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+.header_inner{
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/* MENU */
+.menu_under_title{
+    display: flex;
+    padding: 20px 0;
+    opacity: 60%;
+    justify-content: flex-start;    
+    font-size: 11px;
+    font-weight: bold;
+    color: darkred;
+
+}
+.menu{
+    width: 10%;
+}
+
+/* TEXT */
+
+.text1{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5;
+}
+.text2{
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 80%;
+}
+.image{
+    width: 260px;
+    height: 300px;
+    float: right;
+}
+.image1{
+    width: 300px;
+    height: auto;
+    float: left;
+    z-index: 1;
+}
+aside{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    opacity: 50%;
+}
+
+@media (max-width: 600px) {
+    img {
+      display: none;
+    }
+  }
+  
